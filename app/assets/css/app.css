@@ -1,0 +1,99 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+header {
+  background-color: #000;
+  color: #fff;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+  header .left,
+  header .right {
+    height: 70px;
+  }
+  header .left {
+    float: left;
+    font-family: inherit;
+    font-size: 14px;
+    left: 0;
+    margin: 0;
+    padding: 15px 0 0 15px;
+    position: absolute;
+    right: 300px;
+  }
+    header .left h1 {
+      font-family: inherit;
+      margin: 0;
+    }
+  header .right {
+    float: right;
+  }
+    header .right h2 {
+      margin: 20px 80px 0 0;
+      font-family: inherit;
+      font-size: 14px;
+    }
+    header .right .arrowhead {
+      background: url(../img/arrowhead.png) no-repeat;
+      background: -webkit-image-set(url(../img/arrowhead.png) 1x,url(../img/arrowhead@2x.png) 2x) no-repeat;
+      height: 70px;
+      margin: 10px 10px 0 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 54px;
+    }
+body,
+button {
+  cursor: none !important;
+}
+body .row:last-child {
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+.container-fluid,
+nav,
+#wrapper {
+  height: 100%;
+  touch-action: none;
+}
+nav {
+  background-color: #474747;
+  padding: 0 !important;
+}
+  nav ul {
+    margin: 0;
+    padding: 0 15px;
+  }
+#wrapper {
+  padding: 0;
+}
+iframe {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+#message {
+  bottom: 15px;
+  color: #fff;
+  left: 0;
+  padding: 0 15px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+  #message p {
+    margin-bottom: 0;
+  }
