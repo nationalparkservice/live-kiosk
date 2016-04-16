@@ -59,10 +59,10 @@ $(document).ready(function() {
         });
       }, 1000);
     },
-    url: 'http://www.nps.gov/maps/yell/live/kiosk/iframes.json'
+    url: 'https://www.nps.gov/maps/yell/live/kiosk/iframes.json'
   });
 });
-// Disable Chrome pinch zoom: http://stackoverflow.com/a/29994607.
+// Disable Chrome pinch zoom: https://stackoverflow.com/a/29994607.
 document.addEventListener('mousewheel', function(e) {
   if (e.deltaY % 1 !== 0) {
     e.preventDefault();
